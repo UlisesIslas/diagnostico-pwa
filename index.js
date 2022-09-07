@@ -20,7 +20,7 @@ let getPokemonList = () => {
                     '</div>';
                 }
                 body +=
-                    '<div class="col-3 mt-2">' +
+                    '<div class="col-12 col-md-6 col-lg-3 mt-2">' +
                         '<div class="card">' +
                             '<div class="card-header">' +
                                 '<b>' + p.name.toUpperCase() + '</b>' +
